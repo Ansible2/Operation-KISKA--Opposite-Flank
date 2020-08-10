@@ -1,0 +1,1 @@
+serverTargetFPS = 30;

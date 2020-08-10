@@ -1,0 +1,3 @@
+if (savingEnabled) then {
+	saveGame;
+};

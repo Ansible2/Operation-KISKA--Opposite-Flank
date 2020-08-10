@@ -1,0 +1,36 @@
+author			= "Ansible2 // Cipher";
+onLoadName		= "Operation KISKA: Opposite Flank";
+onLoadMission	= "Open up another flank to the South of Malden's airfield.";
+loadScreen		= "pics\load.jpg";
+overviewPicture = "pics\lobby.jpg";
+overviewText 	= "Open up another flank to the South of Malden's airfield.";
+
+respawnOnStart = -1;
+briefing = 0;
+
+class Header
+{
+	gameType =  Coop;	
+	minPlayers = 1;	
+	maxPlayers = 10;	
+};
+
+class CfgTaskDescriptions
+{
+	#include "Headers\descriptionEXT\taskDescriptions.hpp"
+};
+class CfgFunctions
+{
+	#include "Headers\descriptionEXT\functions.hpp"
+};
+class CfgSounds
+{
+	#include "Headers\descriptionEXT\sounds.hpp"
+};
+/*
+class Params
+{
+	#include ""
+};
+*/
+
