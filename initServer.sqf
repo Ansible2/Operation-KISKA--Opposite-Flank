@@ -32,7 +32,7 @@ if !(isMultiplayer) then {
 
 call OPF_fnc_hideAirAssault;
 
-private _fn_hideMarkers = { dffd
+private _fn_hideMarkers = {
 	private _showMarkers = ((getMissionLayerEntities "showAtEnd") select 1) + ((getMissionLayerEntities "Frame1Hide") select 1) + ((getMissionLayerEntities "frame2Hide_1") select 1) + ((getMissionLayerEntities "Frame3persistent") select 1) + ((getMissionLayerEntities "Frame4hide_1") select 1);
 
 	[(allMapMarkers - _showMarkers), 1] call BIS_fnc_hideMarkerArray;
