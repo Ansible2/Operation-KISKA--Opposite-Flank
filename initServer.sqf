@@ -1,6 +1,7 @@
 #include "Headers\misc\taskGlobals.hpp";
 #include "Headers\misc\spawnData.hpp";
 #include "Headers\misc\musicTracks.hpp";
+#include "Headers\misc\unitTypes.hpp";
 
 call OPF_fnc_prepareGlobals;
 
@@ -9,21 +10,20 @@ call OPF_fnc_prepareGlobals;
 // create a respawn at the airfield
 //OPF_airfieldRespawn = [missionNamespace,getPosATL ONL_airfieldRespawn_Logic,"Airfield Respawn"] call BIS_fnc_addRespawnPosition;
 
-OPF_wolfpackLead = leader wolfpack;
-OPF_hadesLead = leader hades;
+
 // This may be uneccesary///////////////////////////////////////////////////////////////////////////
 if !(isMultiplayer) then {
-	if (isNull OPF_wolfpackLead OR {(units wolfPack) findIf {_x in allPlayers} isEqualTo -1}) then {
+	if (isNull OPF_wolfpackLead OR {(units OPF_wolfpackGroup) findIf {_x in allPlayers} isEqualTo -1}) then {
 		"spawn1" setmarkerAlpha 0;
-		(units wolfPack) apply {deleteVehicle _x};
-		deleteGroup wolfPack;
+		(units OPF_wolfpackGroup) apply {deleteVehicle _x};
+		deleteGroup OPF_wolfpackGroup;
 		
 	};
 
-	if (isNull OPF_hadesLead OR {(units hades) findIf {_x in allPlayers} isEqualTo -1}) then {
+	if (isNull OPF_hadesLead OR {(units OPF_hadesGroup) findIf {_x in allPlayers} isEqualTo -1}) then {
 		"spawn2" setmarkerAlpha 0;
-		(units hades) apply {deleteVehicle _x};
-		deleteGroup hades;
+		(units OPF_hadesGroup) apply {deleteVehicle _x};
+		deleteGroup OPF_hadesGroup;
 	};
 };
 /////////////////////////////////////////////////////////////////////////////////////////////////////

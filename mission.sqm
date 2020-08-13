@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=13146;
+		nextID=13159;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=24737;
+		nextID=24863;
 	};
 	class Camera
 	{
-		pos[]={5049.0078,1670.3895,6638.5439};
-		dir[]={0.10757185,-0.8663466,-0.48779002};
-		up[]={0.18657756,0.49939018,-0.84605008};
-		aside[]={-0.97657382,3.7139762e-007,-0.21536107};
+		pos[]={5504.5757,358.29352,7007.4131};
+		dir[]={0.74836224,-0.64749658,-0.14396214};
+		up[]={0.6358453,0.76206189,-0.12231753};
+		aside[]={-0.18890691,-1.738008e-007,-0.98200536};
 	};
 };
 binarizationWanted=0;
@@ -66505,7 +66505,7 @@ class Mission
 									};
 									id=12399;
 									type="Land_Ammobox_rounds_F";
-									atlOffset=0.92895508;
+									atlOffset=0.9289856;
 								};
 								class Item198
 								{
@@ -66523,7 +66523,7 @@ class Mission
 									};
 									id=12400;
 									type="Land_Ammobox_rounds_F";
-									atlOffset=0.51019287;
+									atlOffset=0.51022339;
 								};
 								class Item199
 								{
@@ -66541,7 +66541,7 @@ class Mission
 									};
 									id=12398;
 									type="Land_Ammobox_rounds_F";
-									atlOffset=0.50830078;
+									atlOffset=0.5083313;
 								};
 								class Item200
 								{
@@ -66752,7 +66752,7 @@ class Mission
 									};
 									id=12415;
 									type="Box_Syndicate_Ammo_F";
-									atlOffset=0.19473267;
+									atlOffset=0.19467163;
 								};
 								class Item211
 								{
@@ -76224,7 +76224,7 @@ class Mission
 									};
 									id=5683;
 									type="Box_Syndicate_Ammo_F";
-									atlOffset=0.379776;
+									atlOffset=0.37985229;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -81941,7 +81941,6 @@ class Mission
 										angles[]={0.44521859,5.9033079,0.92573541};
 									};
 									side="Empty";
-									flags=4;
 									class Attributes
 									{
 										skill=0.2;
@@ -81950,7 +81949,7 @@ class Mission
 									};
 									id=9657;
 									type="Land_PaperBox_01_open_boxes_F";
-									atlOffset=-0.00033569336;
+									atlOffset=0.2660675;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -124472,7 +124471,7 @@ class Mission
 									};
 									id=10717;
 									type="Box_Syndicate_Ammo_F";
-									atlOffset=0.088638306;
+									atlOffset=0.090148926;
 									class CustomAttributes
 									{
 										class Attribute0
