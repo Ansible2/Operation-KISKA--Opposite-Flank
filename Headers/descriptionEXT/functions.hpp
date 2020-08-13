@@ -19,16 +19,17 @@ class OPF
 	class serverStart
 	{
 		file="Functions\ServerStart";
+		class placeSimpleVehicles
+		{};
 		class prepareGlobals
 		{};
 		class serverLoops
 		{}; 
-
 	};
 	class Misc
 	{	
 		file="Functions\misc";
-		class AnimatedBrief
+		class animatedBrief
 		{};
 		class bombardLaTrinite
 		{};
