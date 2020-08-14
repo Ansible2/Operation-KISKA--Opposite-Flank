@@ -66,17 +66,17 @@ OPF_UNSC_crewman = _friendlyUnitTypes select 1;
 ////////////////////////Friendly Vehicle Types/////////////////////////////
 private _friendlyVehicleTypes = call OPF_fnc_selectFriendlyVehicleTypes;
 
-OPF_fuelTruckUNSC = _friendlyVehicleTypes select ;
-OPF_ammoTruckUNSC = _friendlyVehicleTypes select ;
-OPF_transportCoveredTruckUNSC = _friendlyVehicleTypes select ;
-OPF_transportUnCoveredTruckUNSC = _friendlyVehicleTypes select ;
-OPF_miscWarthogsUNSC = _friendlyVehicleTypes select ;
-OPF_mgWarthogUNSC = _friendlyVehicleTypes select ;
-OPF_amphibiousAPCUNSC = _friendlyVehicleTypes select ;
-OPF_bisons = _friendlyVehicleTypes select ;
-OPF_falconUNSC = _friendlyVehicleTypes select ;
-OPF_falconUNSC = _friendlyVehicleTypes select ;
-OPF_pelicanUNSC = _friendlyVehicleTypes select ;
+OPF_fuelTruckUNSC = _friendlyVehicleTypes select 0;
+OPF_ammoTruckUNSC = _friendlyVehicleTypes select 1;
+OPF_transportCoveredTruckUNSC = _friendlyVehicleTypes select 2;
+OPF_transportUnCoveredTruckUNSC = _friendlyVehicleTypes select 3;
+OPF_miscWarthogsUNSC = _friendlyVehicleTypes select 4;
+OPF_mgWarthogUNSC = _friendlyVehicleTypes select 5;
+OPF_amphibiousAPCUNSC = _friendlyVehicleTypes select 6;
+OPF_bisons = _friendlyVehicleTypes select 7;
+OPF_falconUNSC = _friendlyVehicleTypes select 8;
+OPF_pelicanUNSC = _friendlyVehicleTypes select 9;
+OPF_hornetUNSC = _friendlyVehicleTypes select 10;
 OPF_sparrowHawks = ["OPTRE_AV22C_Sparrowhawk","OPTRE_AV22B_Sparrowhawk","OPTRE_AV22A_Sparrowhawk"];
 
 
