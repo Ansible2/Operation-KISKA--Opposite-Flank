@@ -66,12 +66,20 @@ OPF_UNSC_crewman = _friendlyUnitTypes select 1;
 ////////////////////////Friendly Vehicle Types/////////////////////////////
 private _friendlyVehicleTypes = call OPF_fnc_selectFriendlyVehicleTypes;
 
-OPF_largeTrucksURF = _friendlyVehicleTypes select 0;
-OPF_miscWarthogsURF = _friendlyVehicleTypes select 1;
-OPF_mgWarthogURF = _friendlyVehicleTypes select 2;
-OPF_rocketWarthogURF = _friendlyVehicleTypes select 3;
-OPF_apcWarthogURF = _friendlyVehicleTypes select 4;
-OPF_falconURF = _friendlyVehicleTypes select 5;
+OPF_fuelTruckUNSC = _friendlyVehicleTypes select ;
+OPF_ammoTruckUNSC = _friendlyVehicleTypes select ;
+OPF_transportCoveredTruckUNSC = _friendlyVehicleTypes select ;
+OPF_transportUnCoveredTruckUNSC = _friendlyVehicleTypes select ;
+OPF_miscWarthogsUNSC = _friendlyVehicleTypes select ;
+OPF_mgWarthogUNSC = _friendlyVehicleTypes select ;
+OPF_amphibiousAPCUNSC = _friendlyVehicleTypes select ;
+OPF_bisons = _friendlyVehicleTypes select ;
+OPF_falconUNSC = _friendlyVehicleTypes select ;
+OPF_falconUNSC = _friendlyVehicleTypes select ;
+OPF_pelicanUNSC = _friendlyVehicleTypes select ;
+OPF_sparrowHawks = ["OPTRE_AV22C_Sparrowhawk","OPTRE_AV22B_Sparrowhawk","OPTRE_AV22A_Sparrowhawk"];
+
+
 
 OPF_wolfpackLead = leader OPF_wolfpackGroup;
 OPF_hadesLead = leader OPF_hadesGroup;

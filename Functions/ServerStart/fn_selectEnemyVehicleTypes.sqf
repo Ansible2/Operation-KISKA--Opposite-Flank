@@ -57,4 +57,4 @@ switch (["enemyVehicles",0] call BIS_fnc_getParamValue) do {
 };
 
 
-[_largeTrucksURF,_miscWarthogsURF,_mgWarthogURF,_rocketWarthogURF,_apcWarthogURF]
+[_largeTrucksURF,_miscWarthogsURF,_mgWarthogURF,_rocketWarthogURF,_apcWarthogURF,_falconURF]
