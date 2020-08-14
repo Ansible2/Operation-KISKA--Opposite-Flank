@@ -19,9 +19,17 @@ class OPF
 	class serverStart
 	{
 		file="Functions\ServerStart";
+		class clearMemory
+		{};
 		class placeSimpleVehicles
 		{};
 		class prepareGlobals
+		{};
+		class selectEnemyManTypes
+		{};
+		class selectEnemyVehicleTypes
+		{};
+		class selectFriendlyManTypes
 		{};
 		class serverLoops
 		{}; 

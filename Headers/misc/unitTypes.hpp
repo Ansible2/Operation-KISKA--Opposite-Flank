@@ -29,7 +29,28 @@ OPF_miscWarthogsURF_vanilla = [
 	"OPTRE_M914_RV_ins",
 	"OPTRE_M12R_AA_ins"
 ];
+OPF_manTypesUNSC_vanilla = [
+	"OPTRE_UNSC_Marine_Soldier_AA_Specialist",
+	"OPTRE_UNSC_Marine_Soldier_Assist_Autorifleman",
+	"OPTRE_UNSC_Marine_Soldier_AT_Specialist",
+	"OPTRE_UNSC_Marine_Soldier_Autorifleman",
+	"OPTRE_UNSC_Marine_Soldier_Breacher",
+	"OPTRE_UNSC_Marine_Soldier_Corpsman",
+	"OPTRE_UNSC_Marine_Soldier_Demolitions",
+	"OPTRE_UNSC_Marine_Soldier_Marksman",
+	"OPTRE_UNSC_Marine_Soldier_Engineer",
+	"OPTRE_UNSC_Marine_Soldier_ForwardObserver",
+	"OPTRE_UNSC_Marine_Soldier_Grenadier",
+	"OPTRE_UNSC_Marine_Soldier_Radioman",
+	"OPTRE_UNSC_Marine_Soldier_Rifleman_AT",
+	"OPTRE_UNSC_Marine_Soldier_Rifleman_BR",
+	"OPTRE_UNSC_Marine_Soldier_Rifleman_AR",
+	"OPTRE_UNSC_Marine_Soldier_SquadLead",
+	"OPTRE_UNSC_Marine_Soldier_TeamLead"
+];
+OPF_vehicleTypesUNSC_vanilla = [
 
+];
 
 // Opcan
 OPF_manTypesURF_OPCAN = [
@@ -45,7 +66,23 @@ OPF_manTypesURF_OPCAN = [
 	"LM_OPCAN_URA_SL",
 	"LM_OPCAN_URA_TL"
 ];
+OPF_manTypesUNSC_OPCAN = [
+	"LM_OPCAN_UNSCMC_Assaultman_WDL",
+	"LM_OPCAN_UNSCMC_AutoRifleman_WDL",
+	"LM_OPCAN_UNSCMC_Marksman_WDL",
+	"LM_OPCAN_UNSCMC_Breacher_WDL",
+	"LM_OPCAN_UNSCMC_Medic_WDL",
+	"LM_OPCAN_UNSCMC_Engineer_WDL",
+	"LM_OPCAN_UNSCMC_GL_WDL",
+	"LM_OPCAN_UNSCMC_Rifleman_WDL",
+	"LM_OPCAN_UNSCMC_Rifleman_AT_WDL",
+	"LM_OPCAN_UNSCMC_RTO_WDL",
+	"LM_OPCAN_UNSCMC_SL_WDL",
+	"LM_OPCAN_UNSCMC_TL_WDL"
+];
+OPF_vehicleTypesUNSC_OPCAN = [
 
+];
 
 
 // JTFS
@@ -80,4 +117,16 @@ OPF_miscWarthogsURF_zulu = [
 	"VES_M813_TT_URF",
 	"OPTRE_M12R_AA_ins",
 	"OPTRE_M914_RV_ins"
+];
+OPF_manTypesUNSC_zulu = [
+	"VES_Rifleman_TeamLeader_MAR",
+	"VES_Rifleman_SquadLeader_MAR",
+	"VES_Rifleman_MA5B_MAR",
+	"VES_Rifleman_BR55_MAR",
+	"VES_Rifleman_Radio_MAR",
+	"VES_Rifleman_M392_MAR",
+	"VES_Rifleman_M73_MAR"
+];
+OPF_vehicleTypesUNSC_zulu = [
+
 ];

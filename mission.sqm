@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=13159;
+		nextID=13162;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=24863;
+		nextID=24989;
 	};
 	class Camera
 	{
-		pos[]={5504.5757,358.29352,7007.4131};
-		dir[]={0.74836224,-0.64749658,-0.14396214};
-		up[]={0.6358453,0.76206189,-0.12231753};
-		aside[]={-0.18890691,-1.738008e-007,-0.98200536};
+		pos[]={8002.6816,321.99585,10464.115};
+		dir[]={0.13714887,-0.96123636,-0.23969197};
+		up[]={0.47733757,0.27594978,-0.83423191};
+		aside[]={-0.86804187,-4.3750042e-006,-0.4966872};
 	};
 };
 binarizationWanted=0;
@@ -1534,7 +1534,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=108;
+		items=110;
 		class Item0
 		{
 			dataType="Layer";
@@ -10524,7 +10524,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={8023.583,32.164745,10596.573};
-								angles[]={0,3.0827751,0};
+								angles[]={0,3.0827749,0};
 							};
 							side="Empty";
 							flags=4;
@@ -15451,7 +15451,7 @@ class Mission
 						};
 					};
 					id=9737;
-					atlOffset=0.40022278;
+					atlOffset=0.20840454;
 				};
 				class Item1
 				{
@@ -16929,7 +16929,7 @@ class Mission
 				};
 			};
 			id=5412;
-			atlOffset=0.1897583;
+			atlOffset=0.18916702;
 		};
 		class Item5
 		{
@@ -76147,7 +76147,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5763;
 									type="Land_Ammobox_rounds_F";
@@ -76165,7 +76165,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5764;
 									type="Land_Ammobox_rounds_F";
@@ -76183,7 +76183,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5765;
 									type="Land_Ammobox_rounds_F";
@@ -76202,7 +76202,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5714;
 									type="Land_Ammobox_rounds_F";
@@ -76303,7 +76303,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5780;
 									type="Box_Syndicate_Ammo_F";
@@ -76322,7 +76322,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5781;
 									type="Box_Syndicate_Ammo_F";
@@ -76340,7 +76340,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5782;
 									type="Box_Syndicate_Ammo_F";
@@ -76399,7 +76399,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5744;
 									type="Land_PaperBox_closed_F";
@@ -76417,7 +76417,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5745;
 									type="Land_PaperBox_closed_F";
@@ -76434,7 +76434,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5746;
 									type="Land_PaperBox_closed_F";
@@ -76451,7 +76451,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5743;
 									type="Land_PaperBox_open_empty_F";
@@ -76549,7 +76549,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5768;
 									type="Land_PaperBox_open_full_F";
@@ -76609,7 +76609,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5725;
 									type="Land_CampingChair_V2_F";
@@ -76628,7 +76628,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5726;
 									type="Land_CampingChair_V2_F";
@@ -76647,7 +76647,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5727;
 									type="Land_CampingChair_V2_F";
@@ -76666,7 +76666,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5728;
 									type="Land_CampingChair_V2_F";
@@ -76726,7 +76726,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5717;
 									type="Land_CampingTable_F";
@@ -76744,7 +76744,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5718;
 									type="Land_CampingTable_F";
@@ -76763,7 +76763,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5719;
 									type="Land_CampingTable_F";
@@ -76782,7 +76782,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5712;
 									type="Land_Can_V2_F";
@@ -76799,7 +76799,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5749;
 									type="Land_Can_Rusty_F";
@@ -76817,7 +76817,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5711;
 									type="Land_Can_V1_F";
@@ -76835,7 +76835,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5755;
 									type="Land_Canteen_F";
@@ -76895,7 +76895,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5786;
 									type="Land_PaperBox_01_small_destroyed_brown_F";
@@ -76914,7 +76914,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5760;
 									type="Land_PaperBox_01_small_closed_white_med_F";
@@ -76933,7 +76933,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5761;
 									type="Land_PaperBox_01_small_closed_white_med_F";
@@ -76952,7 +76952,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5787;
 									type="Land_PaperBox_01_small_closed_white_med_F";
@@ -76971,7 +76971,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5747;
 									type="Land_Cargo10_brick_red_F";
@@ -76989,7 +76989,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5788;
 									type="Land_Cargo10_red_F";
@@ -77007,7 +77007,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5775;
 									type="Land_CratesPlastic_F";
@@ -77025,7 +77025,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5756;
 									type="Land_DisinfectantSpray_F";
@@ -77086,7 +77086,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5783;
 									type="Land_EmergencyBlanket_01_stack_F";
@@ -77105,7 +77105,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5784;
 									type="Land_EmergencyBlanket_01_stack_F";
@@ -77206,7 +77206,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5753;
 									type="Land_File1_F";
@@ -77266,7 +77266,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5752;
 									type="Land_FMradio_F";
@@ -77367,7 +77367,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5720;
 									type="Land_CampingChair_V1_F";
@@ -77466,7 +77466,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5754;
 									type="Land_FoodSacks_01_small_brown_F";
@@ -77567,7 +77567,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5776;
 									type="Box_Syndicate_WpsLaunch_F";
@@ -77585,7 +77585,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5777;
 									type="Land_LuggageHeap_01_F";
@@ -77903,7 +77903,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5716;
 									type="Land_Map_altis_F";
@@ -77921,7 +77921,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5750;
 									type="Land_MetalBarrel_empty_F";
@@ -78654,7 +78654,7 @@ class Mission
 									flags=4;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5715;
 									type="Land_Pallets_F";
@@ -78673,7 +78673,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5740;
 									type="Land_PCSet_01_case_F";
@@ -78691,7 +78691,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5729;
 									type="Land_PCSet_01_keyboard_F";
@@ -78709,7 +78709,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5730;
 									type="Land_PCSet_01_keyboard_F";
@@ -78727,7 +78727,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5731;
 									type="Land_PCSet_01_keyboard_F";
@@ -78746,7 +78746,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5732;
 									type="Land_PCSet_01_mousepad_F";
@@ -78763,7 +78763,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5733;
 									type="Land_PCSet_01_mousepad_F";
@@ -78781,7 +78781,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5734;
 									type="Land_PCSet_01_mousepad_F";
@@ -78799,7 +78799,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5735;
 									type="Land_PCSet_01_mouse_F";
@@ -78818,7 +78818,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5736;
 									type="Land_PCSet_01_mouse_F";
@@ -78836,7 +78836,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5737;
 									type="Land_PCSet_01_mouse_F";
@@ -78854,7 +78854,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5758;
 									type="Land_PenBlack_F";
@@ -78873,7 +78873,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5713;
 									type="Land_PencilGreen_F";
@@ -78891,7 +78891,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5759;
 									type="Land_PencilGreen_F";
@@ -78910,7 +78910,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5739;
 									type="Land_PencilRed_F";
@@ -78928,7 +78928,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5767;
 									type="Land_Money_F";
@@ -78946,7 +78946,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5762;
 									type="Land_BottlePlastic_V1_F";
@@ -78965,7 +78965,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5785;
 									type="Land_PlasticCase_01_medium_idap_F";
@@ -79024,7 +79024,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5757;
 									type="Land_PlasticCase_01_small_F";
@@ -79084,7 +79084,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5766;
 									type="Land_Pliers_F";
@@ -79103,7 +79103,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5721;
 									type="Land_Rope_01_F";
@@ -79122,7 +79122,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5738;
 									type="Land_TripodScreen_01_dual_v2_F";
@@ -79141,7 +79141,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5723;
 									type="Land_TripodScreen_01_large_F";
@@ -79160,7 +79160,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5724;
 									type="Land_TripodScreen_01_large_F";
@@ -79179,7 +79179,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5722;
 									type="Land_PortableGenerator_01_F";
@@ -81136,7 +81136,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5751;
 									type="Land_Pallets_stack_F";
@@ -81154,7 +81154,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5779;
 									type="Land_WoodenPlanks_01_pine_F";
@@ -81172,7 +81172,7 @@ class Mission
 									flags=1;
 									class Attributes
 									{
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5778;
 									type="Land_WoodenPlanks_01_messy_pine_F";
@@ -81232,7 +81232,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5741;
 									type="Land_WaterBottle_01_compressed_F";
@@ -81250,7 +81250,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5742;
 									type="Land_WaterBottle_01_compressed_F";
@@ -81269,7 +81269,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5769;
 									type="Land_WoodenCounter_01_F";
@@ -81288,7 +81288,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5770;
 									type="Land_WoodenCounter_01_F";
@@ -81307,7 +81307,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5771;
 									type="Land_WoodenCounter_01_F";
@@ -81326,7 +81326,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5772;
 									type="Land_WoodenCounter_01_F";
@@ -81345,7 +81345,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5773;
 									type="Land_WoodenCounter_01_F";
@@ -81364,7 +81364,7 @@ class Mission
 									class Attributes
 									{
 										createAsSimpleObject=1;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=5774;
 									type="Land_WoodenCounter_01_F";
@@ -93958,7 +93958,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6487;
 											type="Land_BakedBeans_F";
@@ -94000,7 +93999,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6553;
 											type="Land_Bandage_F";
@@ -94042,7 +94040,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6554;
 											type="Land_Bandage_F";
@@ -94084,7 +94081,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6555;
 											type="Land_Bandage_F";
@@ -94127,7 +94123,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6495;
 											type="Box_Syndicate_Ammo_F";
@@ -94169,7 +94164,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6496;
 											type="Box_Syndicate_Ammo_F";
@@ -94211,7 +94205,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6497;
 											type="Box_Syndicate_Ammo_F";
@@ -94253,7 +94246,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6498;
 											type="Box_Syndicate_Ammo_F";
@@ -94295,7 +94287,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6533;
 											type="Box_Syndicate_Ammo_F";
@@ -94338,7 +94329,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6534;
 											type="Box_Syndicate_Ammo_F";
@@ -94380,7 +94370,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6540;
 											type="Box_Syndicate_Wps_F";
@@ -94421,7 +94410,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6504;
 											type="BloodSplatter_01_Medium_New_F";
@@ -94462,7 +94450,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6523;
 											type="BloodSplatter_01_Small_New_F";
@@ -94505,7 +94492,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6482;
 											type="Land_Bodybag_01_folded_black_F";
@@ -94547,7 +94533,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6502;
 											type="Land_Bodybag_01_folded_white_F";
@@ -94589,7 +94574,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6520;
 											type="Land_Bodybag_01_folded_white_F";
@@ -94630,7 +94614,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6526;
 											type="Land_PaperBox_closed_F";
@@ -94671,7 +94654,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6527;
 											type="Land_PaperBox_closed_F";
@@ -94712,7 +94694,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6551;
 											type="Land_PaperBox_closed_F";
@@ -94754,7 +94735,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6552;
 											type="Land_PaperBox_01_open_empty_F";
@@ -94796,7 +94776,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6544;
 											type="Land_Bucket_F";
@@ -94838,7 +94817,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6473;
 											type="Land_CampingTable_F";
@@ -94880,7 +94858,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6535;
 											type="Land_Can_V2_F";
@@ -94923,7 +94900,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6538;
 											type="Land_Can_Rusty_F";
@@ -94965,7 +94941,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6547;
 											type="Land_PaperBox_01_small_open_brown_F";
@@ -95007,7 +94982,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6486;
 											type="Land_PaperBox_01_small_closed_white_med_F";
@@ -95048,7 +95022,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6524;
 											type="Land_CratesWooden_F";
@@ -95090,7 +95063,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6541;
 											type="Land_Crowbar_01_F";
@@ -95132,7 +95104,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6506;
 											type="Land_DisinfectantSpray_F";
@@ -95174,7 +95145,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6530;
 											type="Land_DisinfectantSpray_F";
@@ -95217,7 +95187,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6480;
 											type="Land_EmergencyBlanket_01_F";
@@ -95259,7 +95228,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6542;
 											type="Land_EmergencyBlanket_01_F";
@@ -95301,7 +95269,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6476;
 											type="Land_CampingChair_V1_F";
@@ -95343,7 +95310,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6477;
 											type="Land_CampingChair_V1_F";
@@ -95385,7 +95351,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6478;
 											type="Land_CampingChair_V1_F";
@@ -95427,7 +95392,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6511;
 											type="Land_FoodSacks_01_small_brown_F";
@@ -95469,7 +95433,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6512;
 											type="Land_FoodSacks_01_small_brown_F";
@@ -95510,7 +95473,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6519;
 											type="Land_Garbage_square3_F";
@@ -95552,7 +95514,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6507;
 											type="Land_IntravenStand_01_1bag_F";
@@ -95594,7 +95555,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6531;
 											type="Land_IntravenStand_01_1bag_F";
@@ -95637,7 +95597,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6494;
 											type="Box_Syndicate_WpsLaunch_F";
@@ -95680,7 +95639,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6532;
 											type="Box_Syndicate_WpsLaunch_F";
@@ -95721,7 +95679,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6501;
 											type="Land_LuggageHeap_01_F";
@@ -95763,7 +95720,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6500;
 											type="MedicalGarbage_01_1x1_v1_F";
@@ -95805,7 +95761,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6514;
 											type="MedicalGarbage_01_1x1_v1_F";
@@ -95847,7 +95802,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6499;
 											type="MedicalGarbage_01_1x1_v3_F";
@@ -95889,7 +95843,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6513;
 											type="MedicalGarbage_01_1x1_v3_F";
@@ -95931,7 +95884,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6505;
 											type="MedicalGarbage_01_5x5_v1_F";
@@ -95973,7 +95925,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6529;
 											type="MedicalGarbage_01_5x5_v1_F";
@@ -96015,7 +95966,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6479;
 											type="Land_Tableware_01_stackOfNapkins_F";
@@ -96057,7 +96007,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6515;
 											type="Land_PainKillers_F";
@@ -96099,7 +96048,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6483;
 											type="Land_Photos_V5_F";
@@ -96142,7 +96090,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6525;
 											type="Land_Pillow_F";
@@ -96185,7 +96132,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6516;
 											type="Land_Pillow_camouflage_F";
@@ -96228,7 +96174,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6517;
 											type="Land_Pillow_camouflage_F";
@@ -96270,7 +96215,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6549;
 											type="Land_BottlePlastic_V1_F";
@@ -96312,7 +96256,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6481;
 											type="Land_SandbagBarricade_01_F";
@@ -96354,7 +96297,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6548;
 											type="Land_Screwdriver_V2_F";
@@ -96395,7 +96337,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6484;
 											type="Land_Shoot_House_Wall_Crouch_F";
@@ -96436,7 +96377,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6485;
 											type="Land_Shoot_House_Wall_Crouch_F";
@@ -96477,7 +96417,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6522;
 											type="Land_Shoot_House_Wall_Crouch_F";
@@ -96518,7 +96457,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6521;
 											type="Land_Sleeping_bag_blue_F";
@@ -96560,7 +96498,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6474;
 											type="Land_Sleeping_bag_blue_folded_F";
@@ -96602,7 +96539,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6475;
 											type="Land_Sleeping_bag_blue_folded_F";
@@ -96643,7 +96579,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6518;
 											type="Land_Sleeping_bag_brown_F";
@@ -96684,7 +96619,6 @@ class Mission
 											class Attributes
 											{
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6528;
 											type="Land_Sleeping_bag_brown_F";
@@ -96726,7 +96660,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6539;
 											type="Land_Sleeping_bag_folded_F";
@@ -96769,7 +96702,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6545;
 											type="Land_Ground_sheet_folded_OPFOR_F";
@@ -96811,7 +96743,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6546;
 											type="Land_Ground_sheet_folded_OPFOR_F";
@@ -96853,7 +96784,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6492;
 											type="Land_Stretcher_01_sand_F";
@@ -96895,7 +96825,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6493;
 											type="Land_Stretcher_01_sand_F";
@@ -96937,7 +96866,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6509;
 											type="Land_Stretcher_01_sand_F";
@@ -96979,7 +96907,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6510;
 											type="Land_Stretcher_01_sand_F";
@@ -97021,7 +96948,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6508;
 											type="Land_Stretcher_01_folded_sand_F";
@@ -97064,7 +96990,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6536;
 											type="Land_TacticalBacon_F";
@@ -97107,7 +97032,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6537;
 											type="Land_WoodenCounter_01_F";
@@ -97150,7 +97074,6 @@ class Mission
 											{
 												createAsSimpleObject=1;
 												disableSimulation=1;
-												dynamicSimulation=1;
 											};
 											id=6550;
 											type="Land_WoodenTable_large_F";
@@ -130036,18 +129959,17 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={7024.9233,174.21875,7744.248};
+										position[]={7024.9229,174.21875,7744.248};
 									};
 									side="Empty";
 									flags=5;
 									class Attributes
 									{
 										skill=0.2;
-										dynamicSimulation=1;
+										disableSimulation=1;
 									};
 									id=3446;
 									type="Land_TTowerSmall_2_F";
-									atlOffset=1.5258789e-005;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -130079,7 +130001,7 @@ class Mission
 																		"SCALAR"
 																	};
 																};
-																value=2;
+																value=0;
 															};
 														};
 														class Item1
@@ -130119,11 +130041,11 @@ class Mission
 								};
 							};
 							id=13141;
-							atlOffset=0.0019226074;
+							atlOffset=0.0019073486;
 						};
 					};
 					id=3451;
-					atlOffset=1.1230316;
+					atlOffset=1.1230164;
 				};
 				class Item8
 				{
@@ -145680,7 +145602,7 @@ class Mission
 				};
 			};
 			id=13129;
-			atlOffset=69.53392;
+			atlOffset=69.533905;
 		};
 		class Item16
 		{
@@ -150975,6 +150897,38 @@ class Mission
 			name="BatJSpawn3";
 			id=13041;
 			type="Logic";
+		};
+		class Item108
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8000.2852,30.547758,10571.913};
+				angles[]={0,1.8505706,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=13159;
+			type="Land_Puddle_02_F";
+		};
+		class Item109
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={8011.0649,31.439026,10542.241};
+				angles[]={0,2.5099604,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=13160;
+			type="Land_Puddle_02_F";
 		};
 	};
 	class Connections
