@@ -1,6 +1,6 @@
 class enemyUnits
 {
-	title = "Use Enemies From";
+	title = "Use Enemy Units From";
 	texts[] = {"Vanilla OPTRE","OPCAN 3.0","JTFS Armory"};
 	values[] = {0,1,2};
 	default = 0;
@@ -15,7 +15,7 @@ class enemyVehicles
 
 class friendlyUnits
 {
-	title = "Use Firendlies From";
+	title = "Use Firendly Units From";
 	texts[] = {"Vanilla OPTRE","OPCAN 3.0","Fire Team Zulu"};
 	values[] = {0,1,2};
 	default = 0;

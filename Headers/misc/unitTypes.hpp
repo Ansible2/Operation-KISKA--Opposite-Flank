@@ -48,9 +48,7 @@ OPF_manTypesUNSC_vanilla = [
 	"OPTRE_UNSC_Marine_Soldier_SquadLead",
 	"OPTRE_UNSC_Marine_Soldier_TeamLead"
 ];
-OPF_vehicleTypesUNSC_vanilla = [
 
-];
 
 // Opcan
 OPF_manTypesURF_OPCAN = [
@@ -79,9 +77,6 @@ OPF_manTypesUNSC_OPCAN = [
 	"LM_OPCAN_UNSCMC_RTO_WDL",
 	"LM_OPCAN_UNSCMC_SL_WDL",
 	"LM_OPCAN_UNSCMC_TL_WDL"
-];
-OPF_vehicleTypesUNSC_OPCAN = [
-
 ];
 
 
@@ -126,7 +121,4 @@ OPF_manTypesUNSC_zulu = [
 	"VES_Rifleman_Radio_MAR",
 	"VES_Rifleman_M392_MAR",
 	"VES_Rifleman_M73_MAR"
-];
-OPF_vehicleTypesUNSC_zulu = [
-
 ];

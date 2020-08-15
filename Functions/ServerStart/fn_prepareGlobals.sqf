@@ -81,6 +81,10 @@ OPF_sparrowHawks = ["OPTRE_AV22C_Sparrowhawk","OPTRE_AV22B_Sparrowhawk","OPTRE_A
 
 
 
+// static placement arrays
+
+
+
 OPF_wolfpackLead = leader OPF_wolfpackGroup;
 OPF_hadesLead = leader OPF_hadesGroup;
 

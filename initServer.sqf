@@ -45,14 +45,12 @@ call OPF_fnc_sirenOfficersEventHandlers;
 
 call OPF_fnc_arudyArtyEventHandlers;
 
-[
-	{time > 1},
-	{
-		setDate [2519, 06, 24, 07, 30]; // CHANGE TIME HERE UPON RELEASE//////////////////////////////////
-		[OPF_musicTracks] call KISKA_fnc_randomMusic;
-	}
-] call CBA_fnc_waitUntilAndExecute;
-
 OPF_pelicanStart flyInHeight 10;
 
 missionNamespace setVariable ["MAC_online",false,true];
+
+waitUntil {time > 1};
+
+setDate [2519, 06, 24, 07, 30]; // CHANGE TIME HERE UPON RELEASE//////////////////////////////////
+
+[OPF_musicTracks] call KISKA_fnc_randomMusic;

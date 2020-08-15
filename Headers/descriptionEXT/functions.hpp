@@ -41,6 +41,8 @@ class OPF
 		{};
 		class bombardLaTrinite
 		{};
+		class createDiaryRecords
+		{};
 		class delete
 		{};
 		class endex

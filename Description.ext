@@ -19,17 +19,18 @@ class CfgTaskDescriptions
 {
 	#include "Headers\descriptionEXT\taskDescriptions.hpp"
 };
+
 class CfgFunctions
 {
 	#include "Headers\descriptionEXT\functions.hpp"
 };
+
 class CfgSounds
 {
 	#include "Headers\descriptionEXT\sounds.hpp"
 };
-/*
+
 class Params
 {
-	#include ""
+	#include "Headers\descriptionEXT\missionParams.hpp"
 };
-*/

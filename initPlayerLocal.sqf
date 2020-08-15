@@ -22,7 +22,8 @@ if (alive intel3) then {
 	[intel3,"Dossier 3", "We can expect the commander of the 110th Engineer Regiment, Daniel Kadavy, to be at Siren.","pics\hvts\hvt1.jpg"] call KISKA_fnc_intel;
 };
 
-screen1 addaction ["Start Briefing For All Players",{remoteExec ["OPF_fnc_AnimatedBrief",0];}];
+// change to a hold action
+OPF_briefingMonitor addaction ["Start Briefing For All Players",{remoteExec ["OPF_fnc_AnimatedBrief",0];}];
 
 // resupply actions
 OPF_supplyDrop1Action = [
@@ -76,9 +77,9 @@ OPF_supplyDrop2Action = [
 
 call KISKA_fnc_rallyPointActionLoop;
 
-private _fn_introText = {
-	["HFMP_Sketchbook1_1"] call KISKA_fnc_playMusic;
+[_player] call OPF_fnc_createDiaryRecords;
 
+private _fn_introText = {
 	["This is your Datalink...",5] call Kiska_fnc_DataLinkMsg;
 
 	["It will give you updates throughout the mission...",10,false] call Kiska_fnc_DataLinkMsg;
@@ -103,5 +104,7 @@ private _fn_introText = {
 	};
 };
 call _fn_introText;
+
+["HFMP_Sketchbook1_1"] call KISKA_fnc_playMusic;
 
 _player setCustomAimCoef 0.15;
