@@ -87,14 +87,14 @@ fn_spawnBJPatrol = {
 ] call CBA_fnc_waitAndExecute;
 */	
 
-if (alive arudyArtillery1) then {
-    null = [arudyArtillery1,artyTarget4,8,360,300,[10,11,12]] spawn Kiska_fnc_Arty;
+if (alive OPF_arudyArtillery_1) then {
+    null = [OPF_arudyArtillery_1,artyTarget4,8,360,300,[10,11,12]] spawn Kiska_fnc_Arty;
 };
 
-if (alive arudyArtillery2) then {
+if (alive OPF_arudyArtillery_2) then {
     [
         {
-            null = [arudyArtillery2,artyTarget4,8,360,300] spawn Kiska_fnc_Arty;
+            null = [OPF_arudyArtillery_2,artyTarget4,8,360,300] spawn Kiska_fnc_Arty;
         }, 
         [], 
         2

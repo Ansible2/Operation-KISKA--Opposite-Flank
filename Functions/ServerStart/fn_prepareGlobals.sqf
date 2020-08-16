@@ -56,6 +56,7 @@ OPF_mgWarthogURF = _enemyVehicleTypes select 2;
 OPF_rocketWarthogURF = _enemyVehicleTypes select 3;
 OPF_apcWarthogURF = _enemyVehicleTypes select 4;
 OPF_falconURF = _enemyVehicleTypes select 5;
+OPF_apcURF = _enemyVehicleTypes select 6;
 
 ////////////////////////Friendly Unit Types/////////////////////////////
 private _friendlyUnitTypes = call OPF_fnc_selectEnemyManTypes;

@@ -1,4 +1,4 @@
-[arudyArtillery1,arudyArtillery2,arudyArtillery3] apply {
+[OPF_arudyArtillery_1,OPF_arudyArtillery_2,OPF_arudyArtillery_3] apply {
 	_x addEventHandler ["Killed",{
 
 		private _deadArty = missionNamespace getVariable ["deadArudyArty",0];

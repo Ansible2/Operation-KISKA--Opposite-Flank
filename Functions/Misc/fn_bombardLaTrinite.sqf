@@ -1,10 +1,10 @@
-if (!alive arudyArtillery1 AND {!alive arudyArtillery2} AND {!alive arudyArtillery3}) exitWith {};
+if (!alive OPF_arudyArtillery_1 AND {!alive OPF_arudyArtillery_2} AND {!alive OPF_arudyArtillery_3}) exitWith {};
 
-if (alive arudyArtillery1) then {
-    null = [arudyArtillery1,artyTarget4,8,360,300,[10,11,12]] spawn Kiska_fnc_Arty;
+if (alive OPF_arudyArtillery_1) then {
+    null = [OPF_arudyArtillery_1,artyTarget4,8,360,300,[10,11,12]] spawn Kiska_fnc_Arty;
 };
 
-[arudyArtillery2,arudyArtillery3] apply {
+[OPF_arudyArtillery_2,OPF_arudyArtillery_3] apply {
     if (alive _x) then {
         [
             {

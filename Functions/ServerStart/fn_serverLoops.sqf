@@ -124,15 +124,15 @@
 	{
 		if !(missionNamespace getVariable ["oppFlank_ArtyCrewSpawned",false]) then {
 			private _crew = [3,["OPTRE_Ins_URF_Crewman"],opfor] call KISKA_fnc_spawnGroup;
-			private _vehicle = arudyArtillery1;
+			private _vehicle = OPF_arudyArtillery_1;
 			[units _crew,_vehicle] call KISKA_fnc_setCrew;
 
 			private _crew2 = [3,["OPTRE_Ins_URF_Crewman"],opfor] call KISKA_fnc_spawnGroup;
-			private _vehicle2 = arudyArtillery2;
+			private _vehicle2 = OPF_arudyArtillery_2;
 			[units _crew2,_vehicle2] call KISKA_fnc_setCrew;
 
 			private _crew3 = [3,["OPTRE_Ins_URF_Crewman"],opfor] call KISKA_fnc_spawnGroup;
-			private _vehicle3 = arudyArtillery3;
+			private _vehicle3 = OPF_arudyArtillery_3;
 			[units _crew3,_vehicle3] call KISKA_fnc_setCrew;
 		};
 

@@ -1,4 +1,4 @@
-private ["_largeTrucksURF","_miscWarthogsURF","_mgWarthogURF","_rocketWarthogURF","_apcWarthogURF","_falconURF"];
+private ["_largeTrucksURF","_miscWarthogsURF","_mgWarthogURF","_rocketWarthogURF","_apcWarthogURF","_falconURF","_apcURF"];
 
 private _fn_defineEnemyVehicles_vanilla = {
 	_largeTrucksURF = OPF_largeTrucksURF_vanilla;
@@ -7,6 +7,7 @@ private _fn_defineEnemyVehicles_vanilla = {
 	_rocketWarthogURF = "OPTRE_M12A1_LRV_ins";
 	_apcWarthogURF = "OPTRE_M12_FAV_APC";
 	_falconURF = "OPTRE_UNSC_falcon_unarmed";
+	_apcURF = "I_APC_Wheeled_03_cannon_F";
 };
 private _fn_defineEnemyVehicles_zulu = {
 	_largeTrucksURF = OPF_largeTrucksURF_vanilla;
@@ -15,6 +16,7 @@ private _fn_defineEnemyVehicles_zulu = {
 	_rocketWarthogURF = "VES_M12A1_LRV_URF";
 	_apcWarthogURF = "VES_M12_APC_URF";
 	_falconURF = "VES_UH144_URF";
+	_apcURF = "I_APC_Wheeled_03_cannon_F";
 };
 private _fn_defineEnemyVehicles_JTFS = {
 	_largeTrucksURF = OPF_largeTrucksURF_JTFS;
@@ -23,6 +25,7 @@ private _fn_defineEnemyVehicles_JTFS = {
 	_rocketWarthogURF = "JTFS_M12A1_LRV";
 	_apcWarthogURF = "JTFS_M12_FAV_APC";
 	_falconURF = "JTFS_UH144_UA";
+	_apcURF = "JTFS_APC_Gorgon";
 };
 
 switch (["enemyVehicles",0] call BIS_fnc_getParamValue) do {
@@ -57,4 +60,4 @@ switch (["enemyVehicles",0] call BIS_fnc_getParamValue) do {
 };
 
 
-[_largeTrucksURF,_miscWarthogsURF,_mgWarthogURF,_rocketWarthogURF,_apcWarthogURF,_falconURF]
+[_largeTrucksURF,_miscWarthogsURF,_mgWarthogURF,_rocketWarthogURF,_apcWarthogURF,_falconURF,_apcURF]
