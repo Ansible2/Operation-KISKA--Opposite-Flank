@@ -30,8 +30,6 @@ if !(isMultiplayer) then {
 
 [(getMissionLayerEntities "Arsenals") select 0] call KISKA_fnc_addArsenal;
 
-call OPF_fnc_hideAirAssault;
-
 private _fn_hideMarkers = {
 	private _showMarkers = ((getMissionLayerEntities "showAtEnd") select 1) + ((getMissionLayerEntities "Frame1Hide") select 1) + ((getMissionLayerEntities "frame2Hide_1") select 1) + ((getMissionLayerEntities "Frame3persistent") select 1) + ((getMissionLayerEntities "Frame4hide_1") select 1);
 
