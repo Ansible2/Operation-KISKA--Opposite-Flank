@@ -1,17 +1,17 @@
-private ["_URF_unitTypes","_URF_crewman","_URF_officer"];
+private ["_URF_unitTypesArray","_URF_crewman","_URF_officer"];
 
 private _fn_defineEnemyTypes_vanilla = {
-	_URF_unitTypes = OPF_manTypesURF_vanilla;
+	_URF_unitTypesArray = OPF_manTypesURF_vanilla;
 	_URF_crewman = "OPTRE_Ins_URF_Crewman";
 	_URF_officer = "OPTRE_Ins_URF_Officer";
 };
 private _fn_defineEnemyTypes_OPCAN = {
-	_URF_unitTypes = OPF_manTypesURF_OPCAN;
+	_URF_unitTypesArray = OPF_manTypesURF_OPCAN;
 	_URF_crewman = "LM_OPCAN_URA_Crewman";
 	_URF_officer = "LM_OPCAN_URA_Officer";
 };
 private _fn_defineEnemyTypes_JTFS = {
-	_URF_unitTypes = OPF_manTypesURF_JTFS;
+	_URF_unitTypesArray = OPF_manTypesURF_JTFS;
 	_URF_crewman = "JTFS_Crewman";
 	_URF_officer = "JTFS_Officer_01";
 };
@@ -48,4 +48,4 @@ switch (["enemyUnits",0] call BIS_fnc_getParamValue) do {
 	};
 };
 
-[_URF_unitTypes,_URF_crewman,_URF_officer]
+[_URF_unitTypesArray,_URF_crewman,_URF_officer]
