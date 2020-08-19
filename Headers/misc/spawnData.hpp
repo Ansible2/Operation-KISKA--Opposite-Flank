@@ -1,33 +1,3 @@
-OPF_vanillaUnitTypes_array = [
-	"OPTRE_Ins_URF_AA_Specialist",
-	"OPTRE_Ins_URF_Assist_Autorifleman",
-	"OPTRE_Ins_URF_Autorifleman",
-	"OPTRE_Ins_URF_Marksman",
-	"OPTRE_Ins_URF_Engineer",
-	"OPTRE_Ins_URF_Grenadier",
-	"OPTRE_Ins_URF_Radioman",
-	"OPTRE_Ins_URF_Rifleman_AT",
-	"OPTRE_Ins_URF_Rifleman_AR",
-	"OPTRE_Ins_URF_Rifleman_BR",
-	"OPTRE_Ins_URF_Rifleman_Light",
-	"OPTRE_Ins_URF_Medic",
-	"OPTRE_Ins_URF_TeamLead",
-	"OPTRE_Ins_URF_Marksman",
-	"OPTRE_Ins_URF_SquadLead"
-];
-
-OPF_battleJumpersUnitTypes_array = [
-	"OPTRE_Ins_BJ_Soldier_TeamLeader",
-	"OPTRE_Ins_BJ_Soldier_Automatic_Rifleman",
-	"OPTRE_Ins_BJ_Soldier_Corpsman",
-	"OPTRE_Ins_BJ_Soldier_Engineer",
-	"OPTRE_Ins_BJ_Soldier_Marksman",
-	"OPTRE_Ins_BJ_Soldier_Rifleman_AT",
-	"OPTRE_Ins_BJ_Soldier_Rifleman_BR",
-	"OPTRE_Ins_BJ_Soldier_Rifleman_AR",
-	"OPTRE_Ins_BJ_Soldier_Scout"
-];
-
 OPF_zone1_positions = [
 	[7627.08,7769.38,0.648376],
 	[7624.14,7766.13,0.647247],
