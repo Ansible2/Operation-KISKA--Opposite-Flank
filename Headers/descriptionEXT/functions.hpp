@@ -37,6 +37,8 @@ class OPF
 	class Misc
 	{	
 		file="Functions\misc";
+		class addSupplyDropActions
+		{};
 		class animatedBrief
 		{};
 		class bombardLaTrinite
